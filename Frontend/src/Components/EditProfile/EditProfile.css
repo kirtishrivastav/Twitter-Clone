@@ -1,0 +1,63 @@
+.modal{
+  height: 530px;
+
+}
+
+.edit-profile-modal .modal-header {
+    border-bottom: none;
+  }
+  
+  .edit-profile-modal .modal-title {
+    margin: 0 auto;
+  }
+  
+  .edit-profile-modal .modal-body {
+    padding: 2rem;
+  }
+
+  
+  
+  .edit-profile-modal .form-control {
+    height: 35px;
+    width: 100%;
+    /* margin: 1rem; */
+   
+  }
+  .edit-profile-modal .form-control .form-lable{
+    margin-right: 15px;
+  }
+ 
+
+  
+  .edit-profile-modal .modal-footer {
+    border-top: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  
+  .edit-profile-modal .btn {
+    width: 100px;
+  }
+  
+  .edit-profile-modal .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+  }
+  
+  .edit-profile-modal .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 6px;
+  }
+  
+  .Form{
+    display: flex !important;
+    flex-direction: column;
+  }
+  .Form-group{
+    display: flex !important;
+    flex-direction: column;
+
+  }

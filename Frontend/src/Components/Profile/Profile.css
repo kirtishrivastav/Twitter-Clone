@@ -1,0 +1,249 @@
+.container {
+  padding: 0px;
+  position: relative;
+ 
+}
+
+.container .top {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  height: 100px;
+  /* margin-top: calc(var(--profile-image-size) / -2); */
+}
+.profile-cover{
+  background-size: cover;
+  width: 100%;
+}
+.profile-cover img{
+  width: 100%;
+}
+
+.container .top .image {
+  position: relative;
+  bottom: 70px;
+  left: 15px;
+  width: 90px;
+  height: var(--profile-image-size);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid black;
+  background-color: #fff;
+}
+
+.container .top .image img {
+ 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .top .actions {
+  position: relative;
+  top: 55px;
+  display: flex;
+}
+
+.container .top .actions .action-btn {
+  border: 1px solid #777;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .details {
+  color: #2f2d2d;
+  margin-top: 20px;
+}
+
+.container .details .user__name {
+  /* color: white; */
+  font-weight: bold;
+     font-size: 25px;
+  position: relative;
+  right: 40%;
+}
+
+
+.container .details .user__id {
+  margin-top: 2px;
+  font-size: 20px;
+  position: relative;
+  right: 45%;
+}
+
+.container .details .user__bio {
+  color: white;
+  margin-top: 10px;
+}
+
+.container .details .user__bio a {
+  color: var(--theme-color);
+  text-decoration: none;
+}
+
+.container .details .user__joined {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.container .details .user__joined--text {
+  margin-left: 5px;
+}
+
+.container .details .user__follows {
+  font-size: 20px;
+  display: flex;
+  margin-top: 15px;
+}
+
+/* .container .details .user__follows b {
+  color: white;
+} */
+
+.container .details .user__follows__followers {
+  margin-left: 20px;
+}
+
+.container .details .user__followed-by {
+  font-size: 13px;
+  margin-top: 15px;
+}
+.profile-header{
+  width: 100%;
+}
+.actions{
+  display: flex;
+  position: relative;
+    bottom: 60px;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.actions button{
+  height: 40px;
+  width: 120px;
+  padding: 0px;
+}
+
+
+.user-joining{
+  position: relative;
+    bottom: 35px;
+}
+/* tweets css */
+
+
+.profile-tweets{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: #777 1px solid;
+  margin-left: 1rem;
+  padding: 10px;
+  width: 95%;
+
+}
+.tweets h3{
+  text-align: center;
+}
+
+.tweet-action{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 30%;
+}
+
+.action-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon-wrapper {
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.userName{
+  position: relative;
+    bottom: 40px;
+    font-size: 30px;
+    margin: 5px;
+}
+
+@media (max-width: 900px) { 
+  .profile-tweets{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* border: #777 1px solid; */
+    /* margin-left: 3rem; */
+    padding: 5px;
+    width: 80%;
+    margin-left: 0;
+    position: relative;
+    left: 15px;
+  
+  }
+  .tweets{
+    width: 560px;
+  }
+  .container .details {
+    color: #2f2d2d;
+    margin-top: 20px;
+    position: relative;
+    left: 0px;
+}
+ }
+ /* upload pic css */
+ .title{
+  font-size: 30px;
+ 
+ }
+ .upload-p{
+  background-color: rgb(117, 192, 245);
+  text-align: center;
+  /* padding-top: 10px; */
+  height: 65px;
+  font-size: 20px;
+  border-radius: 5px;
+  color:rgb(48, 55, 135) ;
+ }
+ #upload-input{
+  height: 40px;
+  border: none;
+  /* background-color: #777; */
+
+ }
+ 
+ input #file-upload-button{
+   width: 60px; 
+   height:40px;
+ }
+
+ .upload-profile-modal .modal-footer{
+  border-top: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+ }
+ /* background-color: #007bff;
+ border-color: #007bff;
+ border-radius: 6px; */
+ .profile-upload-modal{
+  height: 380px !important;
+ }
+
+.other_userName{
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  right: 42%;
+}
+ 
+
+ 

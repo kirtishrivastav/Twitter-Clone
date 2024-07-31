@@ -1,0 +1,86 @@
+.left-side-panel {
+    width: 10%;
+    margin-left: 20px;
+  /* position: fixed; */
+}
+
+.twitter-logo {
+    margin-left: 1.25rem;
+    width: 64px;
+}
+
+.menu {
+    margin-top: 1rem;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 120px;
+}
+
+.menu-item:hover {
+    background-color: #e5e7eb; /* hover:bg-gray-200 */
+}
+
+.menu-item h1 {
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-left: 0.5rem;
+}
+
+.post-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #1D9BF0;
+    width: 100%;
+    border-radius: 9999px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.post-button:hover {
+    background-color: #1a8cd8; /* Slightly darker for hover effect */
+}
+
+.bottom-section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* padding: 10px 0; */
+    text-decoration: none;
+    /* border:  2px solid gray; */
+    position: relative;
+    top: 20%;
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.profile{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0;
+}
+.profile  p  {
+    padding: 0;
+    margin: 0px;
+
+}
+.profile h4{
+    margin: 0;
+}
+.user-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

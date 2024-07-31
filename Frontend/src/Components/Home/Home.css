@@ -1,0 +1,52 @@
+
+
+.main-layout {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+  margin-top: 20px;
+   
+  
+  }
+  .main-layout {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .left-panel{
+    width: 170px; /* Adjust based on your design */
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+  }
+  
+  .mid-content {
+    border: 1px solid rgb(223, 221, 221);
+    padding: 10px;
+    margin-left: 0px;
+    /* flex: 2; */
+    overflow-y: auto;
+    width: 50%;
+    overflow-x: hidden;
+  }
+  @media (max-width: 980px){
+    .mid-content {
+      border: 1px solid rgb(223, 221, 221);
+      padding: 10px;
+      margin-left: 0px;
+      /* flex: 2; */
+      overflow-y: auto;
+      width: 50%;
+      overflow-x: hidden;
+  }
+  .main-layout{
+    justify-content: space-between;
+  }
+ 
+  }
+
+ 
+  
+  

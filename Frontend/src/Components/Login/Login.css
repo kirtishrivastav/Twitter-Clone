@@ -1,0 +1,123 @@
+/* Login.css */
+.login-container {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .welcome-section {
+    background-color: #007bff;
+    color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 355px;
+
+    width: 20%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+  }
+  
+  .welcome-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-section .icon {
+    font-size: 8rem;
+  }
+  /* .twitter-logo{
+    size: 60px;
+  } */
+  .logo {
+    width: 130px;
+    /* background: white; */
+}
+  .login-section {
+    width: 25%;
+    height: 50%;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .login-section h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+  }
+  
+  .login-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-section input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    height: 50px;
+    border-radius: 5px;
+    border: grey 1px solid;
+  }
+  
+  .login-section button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    width: 90px;
+    background-color: black;
+    border-radius: 5px;
+    height: 45px;
+  }
+  
+  .login-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-link {
+    margin-top: 1rem;
+  }
+  
+  .register-link p {
+    font-size: 1.5rem;
+  }
+  
+  .register-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .welcome-section {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .login-section {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+  

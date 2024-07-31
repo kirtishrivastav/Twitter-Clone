@@ -1,0 +1,73 @@
+.who-to-follow-container {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #f3f4f6;
+    border-radius: 9999px;
+    width: 100%;
+}
+
+.search-input {
+    background: transparent;
+    outline: none;
+    padding-left: 8px;
+    flex: 1;
+    border-radius: 10px;
+    height: 30px;
+    border: aliceblue;
+}
+
+.follow-suggestions {
+    padding: 16px;
+    background-color: #f3f4f6;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+.suggestions-title {
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.user-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-details {
+    margin-left: 8px;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.user-username {
+    font-size: 0.875rem;
+}
+
+.profile-button {
+    padding: 4px 16px;
+    background-color: black;
+    color: white;
+    border-radius: 9999px;
+}
